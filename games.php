@@ -54,6 +54,7 @@ if($id!=0){
         ?>
             <div class="nk-gap-2"></div> 
             <div class="nk-gap"></div>
+            
    
             <h2 class="nk-decorated-h-2 h3"><span><span class="text-main-1">Other  </span> <?php echo $type;?> Games </span></h2>
             <div class="nk-gap"></div>
@@ -70,9 +71,17 @@ if($id!=0){
                     $type = $row["type"];
                     $size = $row["size"];
                     item_display($id,$name,$details,$image,$type);   
+
+
+                    
                 }
+
+       
                 ?>
        </div>
+
+
+
 
         <?php
 
@@ -117,6 +126,28 @@ elseif ($t!=0)
               
  ?>
 </div>
+
+
+<?php
+ $phasmobia = 16;
+ $q = "SELECT * FROM item WHERE id = '$phasmobia'";
+ $qrun = mysqli_query($con,$q);
+
+
+ if ($phasmobia === 16) {
+    $item = mysqli_fetch_array($qrun);
+
+?>
+
+    <p><?= $item['name']; ?></p>
+    <p><?= $item['details']; ?></p>
+
+<?php
+ }
+else {
+    echo "data not found";
+}
+?>
 
 <div class="nk-gap-4"></div>
     <!-- START: Footer -->

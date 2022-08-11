@@ -53,7 +53,7 @@ include_once("nav-mobile.php");
     </div>
     <div class="nk-gap-2"></div>   
     <?php  include_once("intro/start-latest-posts.php");?>
-    <?php  include_once("intro/start-monthsary-posts.php");?>
+
 </div>
 
 <div class="nk-gap-4"></div>

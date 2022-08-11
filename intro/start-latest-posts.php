@@ -1,7 +1,7 @@
 <div class="nk-gap-2"></div> 
 <div class="nk-gap"></div>
    
-            <h2 class="nk-decorated-h-2 h3"><span><span class="text-main-1">Vlog</span> Experience</span></h2>
+            <h2 class="nk-decorated-h-2 h3"><span><span class="text-main-1">Vlog</span> Experiencse</span></h2>
             <div class="nk-gap"></div>
             <div class="nk-popup-gallery">
                 <div class="row vertical-gap">
