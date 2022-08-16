@@ -52,6 +52,37 @@ It's never just about the games in <span class="text-main-1">Sploop!</span>, it'
  
 </div>
 
+<div class="nk-gap-2"></div>
+<div class="nk-gap"></div>
+
+<div class="container">
+<p class="h4 text-center intro-snuggles">
+
+SPLOOP DAVAO  VISION, MISSION AND GOAL STATEMENT
+</p>
+<div class="nk-gap-2"></div>
+<div class="nk-gap"></div>
+
+<p class="h4 text-main-1">
+    " Our Vision is to be the leading entertainment company in Mindanao. By using modern technology, we want to give the customers a consistently satisfactory experience and service in the best wa we can. "
+</p>
+<div class="nk-gap-2"></div>
+<div class="nk-gap"></div>
+
+<p class="h4 text-main-1">
+    " Through our creative minds and ability to innovate, our mission is to productively oversee and develop our line of business and to understand the maximum capacity of the gaming
+    industry by providing the most up-to-date gaming experience. "
+</p>
+
+<div class="nk-gap-2"></div>
+<div class="nk-gap"></div>
+
+<p class="h4 text-main-1">
+    " Our goal is to give our communities the posibility to engage with us, and with each other, through taking them to a virtual experience. "
+</p>
+</div>
+
+
 <div class="nk-gap-4"></div>
 
    <!-- START: Footer -->

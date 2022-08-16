@@ -1,3 +1,11 @@
+
+<style>
+    li a:hover {
+        color: #ff9f3b !important;
+    }
+
+</style>
+
 <header class="nk-header nk-header-opaque">
 
     
@@ -107,12 +115,14 @@
             .nk-navbar-transparent
             .nk-navbar-autohide
     -->
+
+    <?php $page= $_SERVER['PHP_SELF']; ?>
     <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-autohide">
         <div class="container">
             <div class="nk-nav-table">               
                 <a href="./" class="nk-nav-logo">
 
-                    <img src="assets/images/logo.png" alt="GoodGames" width="199">
+                    <img src="assets/images/latest-logo.png" alt="GoodGames" width="199" height="50">
           
                 </a>           
                 <ul class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">                  
@@ -125,9 +135,9 @@
       while($row = $result->fetch_assoc()) 
       {
       
-        if ($row["file"] <> ''){
+        if ($row["file"] <> ''){            
                 ?>
-        <li>
+        <li class="<?php if($page == $row["description"]): echo 'active';endif; ?>">
             <a href="<?php echo $row["file"];?>">
              <?php echo $row["description"]; ?>           
             </a>

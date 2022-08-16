@@ -1,0 +1,4 @@
+#9E96FA text/button
+#0077FF main header
+plain black
+plain wait

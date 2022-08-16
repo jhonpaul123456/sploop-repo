@@ -17,7 +17,7 @@
     FB.init({
       xfbml            : true,
       version          : 'v6.0'
-    });
+    });   
   };
 
   (function(d, s, id) {

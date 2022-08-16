@@ -1,2 +1,196 @@
+
 /* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+.intro-snuggles{
+    font-size: 60px;
+}
+/* vr paranormal activity */
+.bigimage-pa {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url('../images/about/vrpa.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(200%);
+    filter: contrast(120%);
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+/* mission x */
+.bigimage-mx {
+    width: 100%;
+    position: relative;
+    background-image: url('../images/about/missionx.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(200%);
+    filter: contrast(120%);
+    filter: saturate(200%);
+    margin: 0 auto;
+    padding: 0;
+}
+/* ar sniper*/
+.bigimage-ars {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url('../images/about/ars.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(200%);
+    filter: contrast(120%);
+    filter: saturate(200%);
+    margin: 0 auto;
+    padding: 0;
+}
+/* fps arena */
+.bigimage-fa {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url('../images/about/fpsa.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(200%);
+    filter: contrast(120%);
+    filter: saturate(200%);
+    margin: 0 auto;
+    padding: 0;
+}
+/* vr team */
+.bigimage-vt {
+    width: 100%;
+    position: relative;
+    background-image: url('../images/about/vrteam.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(200%);
+    filter: contrast(120%);
+    filter: saturate(200%);
+    margin: 0 auto;
+    padding: 0;
+}
+/* vr scape-room */
+.bigimage-vsr {
+    width: 100%;
+    position: relative;
+    background-image: url('../images/about/vrer.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(200%);
+    filter: contrast(120%);
+    filter: saturate(200%);
+    margin: 0 auto;
+    padding: 0;
+
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.details {
+    font-size: 13px;
+}
+.video-size {
+    width: 550px;
+    height: 300px;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+        color: #ff9f3b;
+    }
+}
+
+.blink {
+    animation: blink 1s linear infinite;
+}
+
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 360px) {
+    .intro-snuggles{
+        font-size: 30px;
+    }
+    .video-size {
+        width: 150px !important;
+        height: 150px;
+    }
+    .blink {
+        font-size: 10px !important;
+    }
+    .details {
+        font-size: 8px !important;
+    }
+    .overlay 
+    {
+        height: 200px;
+    }
+    .bigimage-pa {
+        height: 200px;
+    }
+    .bigimage-mx {
+        height: 200px;
+    }
+    .bigimage-ars {
+        height: 200px;
+    }
+    .bigimage-fa {
+        height: 200px;
+    }
+    .bigimage-vt {
+        height: 200px;
+    }
+    .bigimage-vsr {
+        height: 200px;
+    }
+  }
+  @media only screen and (max-width: 940px) {
+    .video-size {
+        width: 350px;
+        height: 250px;
+    }
+
+  }
+
+  @media only screen and (max-width: 690px) {
+    .intro-snuggles{
+        font-size: 30px;
+    }
+    .video-size {
+        width: 250px;
+        height: 150px;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 460px) {
+    .intro-snuggles{
+        font-size: 30px;
+    }
+    .video-size {
+        width: 220px;
+        height: 150px;
+    }
+    .blink {
+        font-size: 14px;
+    }
+    .details {
+        font-size: 10px;
+    }
+}
 
